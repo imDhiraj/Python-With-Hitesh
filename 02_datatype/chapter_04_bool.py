@@ -14,5 +14,10 @@ if_value_is_not_there= 0 # none
 print(f"if the value is not avlible `{bool(if_value_is_not_there)}`")
 
 
-# boolen can be use bitwise oprator
+# boolen can be use logical opration 
+
+hot_water = True
+tea_mix=False
+
+print(f"Tea perpare to serve or not ? \n {bool(hot_water and tea_mix)}")
 
