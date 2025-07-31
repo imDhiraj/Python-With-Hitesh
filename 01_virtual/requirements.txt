@@ -1,1 +1,10 @@
+#This file let us istall requeried Python packages for different project environments
+#To install the packages, run: pip install -r requirements.txt
+
+# For the virtual environment
+ #run: Python -m venv venv or .venv (. let us create a hidden folder)
+# Activate the virtual environment: 
+# Windows: venv\Scripts\activate
+# Linux/Mac: source venv/bin/activate
+
 flask==3.0.0
