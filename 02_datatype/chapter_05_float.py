@@ -41,7 +41,8 @@ print(getcontext())
 #Context(prec=7, rounding=ROUND_HALF_EVEN, Emin=-999999, Emax=999999, capitals=1, clamp=0, flags=[Inexact, Rounded], traps=[InvalidOperation, DivisionByZero, Overflow])
 print(f"Decimial based operation with try to give more precise value{Decimal(1)/Decimal(7)}")
 #Decimial based operation with try to give more precise value 0.1428571
- 
+
+#Read More on https://docs.python.org/3/library/decimal.html
 
 # --- for Fractions ----
 # we can use fraction module like following to form opration like addintion and other but we have to write it done in numerator, denominator Fashion 
@@ -51,7 +52,7 @@ print(Fraction(4555555,100000)-Fraction(365,10)) #  Output 181111/20000
 #to have floating value we have type cast it in float 
 subtration=Fraction(4555555,100000)-Fraction(365,10)
 print(f"fractions result {float(subtration)}")   # Output  fractions result 9.05555
-
+ # Read More on https://docs.python.org/3/library/fractions.html
 
 
 
